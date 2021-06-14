@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite  name="TDAssignment" parallel="tests" thread-count="10" verbose="1">
+  <test name="Validate_Authentication_Required_Purchase_AmazonKindle">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.tdassignment.tests.TestRunner"/>
+    </classes>
+  </test>
+</suite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [TDAssignment]" guice-stage="DEVELOPMENT">
+  <test name="Validate_Authentication_Required_Purchase_AmazonKindle(failed)">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="com.tdassignment.tests.TestRunner">
+        <methods>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- com.tdassignment.tests.TestRunner -->
+    </classes>
+  </test> <!-- Validate_Authentication_Required_Purchase_AmazonKindle(failed) -->
+</suite> <!-- Failed suite [TDAssignment] -->

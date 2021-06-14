@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: parallel.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.5 s <<< FAILURE! - in parallel.RunCucumberTest
+setUpClass(parallel.RunCucumberTest)  Time elapsed: 1.276 s  <<< FAILURE!
+java.lang.IllegalArgumentException: path must exist: C:\TD_Assignment\parallel
+
